@@ -8,7 +8,7 @@ const SongSelector = ({songs, onSongSelected}) => {
     }
     
     const songOptions = songs.map((song, index) => {
-      return <option value={index} key={index}>{song["im:name"]["label"]}</option>
+      return <option value={index} key={index}>{index +1} {song["im:name"]["label"]}</option>
     })
 
     return (

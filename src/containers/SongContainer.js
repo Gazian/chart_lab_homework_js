@@ -17,9 +17,9 @@ const SongContainer = () => {
         .then(songs => setSongs(songs.feed.entry))
     }
 
-    const onSongClick = function(song){
-        setSelectedSong(song);
-    }
+    // const onSongClick = function(song){
+    //     setSelectedSong(song);
+    // }
 
     const onSongSelected = function(song){
         setSelectedSong(song);
